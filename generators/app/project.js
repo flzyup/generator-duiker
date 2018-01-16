@@ -79,7 +79,8 @@ module.exports = class {
       'gradlew.bat',
       'CHANGELOG.md',
       'src/main/resources/liquibase/master.xml',
-      'src/main/resources/bootstrap-dev.yml'
+      'src/main/resources/bootstrap-dev.yml',
+      'libs/duiker-0.0.20-dev.jar'
     ]
 
     for (const file of files) {
